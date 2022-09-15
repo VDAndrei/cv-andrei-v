@@ -1,0 +1,208 @@
+body {
+    background-color: rgb(30, 30, 30);
+    margin: 0;
+    padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.background-image {
+ background-image: url(../img/pexels-dids-3527786.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
+ opacity: 0.7;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+    }
+
+    h1 {
+      position: absolute;
+      float: left;
+      margin-left: 10px;
+      margin-top: 5px;
+      color: azure;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .navigation-bar-1 {
+      width: auto;
+      float: right;
+      margin-right: 15px;
+    }
+
+    .navigation-bar-2 {
+      display: inline-block;
+     padding: 10px;
+     padding-top: 15px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    a {
+      text-align: center;
+      color: azure;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: rgb(154, 78, 164);
+    }
+
+    .container {
+      position: relative;
+      color: azure;
+    }
+
+   .text {
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    top: 60px;
+    left: 45px;
+   }
+
+   .logo {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+   }
+
+   .photo-of-me {
+    position: absolute;
+    width: auto;
+    border: 2px solid;
+    color: azure;
+    top: 100px;
+    right: 100px;
+   }
+
+   .this-is-me {
+    position: absolute;
+    background-color: azure;
+    color: rgb(30, 30, 30);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 141px;
+    padding-right: 150px;
+    bottom: 302px;
+    right: 100px;
+   }
+
+   .photo-of-my-school {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    border: 2px solid;
+    padding-bottom: -10px;
+   }
+
+   .text-for-my-school {
+    position: absolute;
+    background-color: azure;
+    color: rgb(30, 30, 30);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 65px;
+    padding-right: 77px;
+    top: 452px;
+    right: 100px;
+   }
+
+   .list-of-my-courses {
+    position: absolute;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 60px;
+    left: 45px;
+   }
+
+   .my-free-time-text {
+    position: absolute;
+    font-size: larger;
+    color: azure;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 60px;
+    left: 45px;
+   }
+
+   .picture-of-my-favorite-car {
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    border: 2px solid;
+    color: azure;
+   }
+
+.text-for-my-favorite-car {
+  position: absolute;
+  background-color: azure;
+  color: rgb(30, 30, 30);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  top: 300px;
+  right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 97px;
+  padding-right: 95px;
+}
+
+.photo-of-my-favorite-game {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  border: 2px solid;
+  color: azure;
+}
+
+.text-for-my-favorite-game {
+  position: absolute;
+  background-color: azure;
+  color: rgb(30, 30, 30);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  bottom: 100px;
+  left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.my-second-favorite-game {
+  position: absolute;
+  bottom: 150px;
+  left: 400px;
+  border: 2px solid;
+  color: azure;
+}
+
+.text-for-my-second-favorite-game {
+  position: absolute;
+  background-color: azure;
+  color: rgb(30, 30, 30);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  bottom: 117px;
+  left: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 11px;
+  padding-right: 10px;
+}
+
+.text-for-the-problems-i-encountered {
+  position: absolute;
+    font-size: larger;
+    color: azure;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 60px;
+    left: 45px;
+    line-height: 29px;
+}
+
+
+ 
